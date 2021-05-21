@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Caluladora</title>
+
+    <link rel="shortcut icon" href="./favicon-32x32.png" type="image/x-icon" />
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- styles -->
+    <link rel="stylesheet" href="css/normalice.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="container-calculator">
+      <div class="calculator">
+        <div class="calculator__head">
+          <h2 class="title">calc</h2>
+          <div class="container-icon">
+            <p class="title__icon">THEME</p>
+            <div class="icon">
+              <p class="themes">
+                <i class="num__theme">1</i>
+                <i class="num__theme">2</i>
+                <i class="num__theme">3</i>
+              </p>
+              <div class="body-icon" id="theme">
+                <div class="icon__btn" data-theme="dark"></div>
+                <div class="icon__btn" data-theme="light"></div>
+                <div class="icon__btn" data-theme="violet"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="calculator__screen" id="screen">0</div>
+        <div class="calculator__keyboard" id="keyPath">
+          <button class="btn">7</button>
+          <button class="btn">8</button>
+          <button class="btn">9</button>
+          <button class="btn">Del</button><button class="btn">4</button>
+          <button class="btn">5</button>
+          <button class="btn">6</button>
+          <button class="btn">+</button>
+          <button class="btn">1</button>
+          <button class="btn">2</button>
+          <button class="btn">3</button>
+          <button class="btn">-</button><button class="btn">.</button>
+          <button class="btn">0</button>
+          <button class="btn">/</button>
+          <button class="btn">x</button>
+          <button class="btn">Reset</button>
+          <button class="btn" id="calc">=</button>
+        </div>
+      </div>
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
